@@ -11,10 +11,13 @@ class PetsPage extends Component {
   componentDidMount() {
     this.props.fetchPets();
   }
+  
+
 
   render() {
     return (
       <div>Pets Page</div>
+
     )
   }
 };
